@@ -1,10 +1,7 @@
-# House Price Prediction Project
+House Price Prediction
 
-This project predicts house prices using machine-learning.
-
-Files:
-- train.py — trains the ML model
-- app.py — Flask web app for predictions
-- index.html — input form UI
-- result.html — prediction display page
-- House_Prices.csv — dataset (replace with your own)
+Steps:
+1. pip install flask pandas scikit-learn
+2. python train.py
+3. python app.py
+4. Open http://127.0.0.1:5000/
